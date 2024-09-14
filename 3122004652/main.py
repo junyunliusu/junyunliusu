@@ -27,4 +27,4 @@ if __name__ == '__main__':
     result = company(p1, p2)*100
     f=open(args.add3,'w',encoding='utf-8')
     f.write("两个文本相似度为： %.2f"%result)#采用百分制，保留两位小数
-    f.close
+    f.close()
